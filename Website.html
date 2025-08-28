@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <title>Hello World Website</title>
     <script>
-        function function-name() {
-            // >>> put a prompt here, ask the user for a new name <<< 
-            // Use document.getElementById("your id").textContent = .... to change the level 1 header to say something new
+        function website() {
+            let name = prompt("Give new name")
+            document.getElementById("yummy").textContent = "Yummy!";
         }
     </script>
 </head>
 <body>
-    <h1 id="your-id-here">Hello, World!</h1>
-    <button onclick="function-name()">label-on-button</button>
+    <h1 id="yummy">Hello, World!</h1>
+    <button onclick="website()">click-me</button>
+    <button onclick="website()">change-colors</button>
 </body>
 </html>
